@@ -11,13 +11,10 @@ import (
 
 /*
 A go.rice usage example.
-
 To build it you need an actual `go.rice` package and its tool:
-
 * install go.gice: `go get github.com/GeertJohan/go.rice && go get github.com/GeertJohan/go.rice/rice`
 * append resources to executable via `go build && rice append /exec restest.exe` (omit .exe if not on Windows)
 * or you can embed it via `rice embed-go && go build` (in that order)
-
 Now the resulting executable is completely stand-alone.
 */
 func main() {

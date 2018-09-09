@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Test</title>
+        <style>
+
+select {
+  display:block;
+  size:*;
+  flow:horizontal-flow;
+  border-spacing:6dip;
+}
+
+select > img { display:block; size:16dip; }
+
+select > img:current { outline:1dip solid red -1dip; }
+
+        </style>
+        <script type="text/tiscript">
+
+function self.ready() {
+  const elSelect = $(select);
+  for(var i in 300) 
+    elSelect.$append(
+      <img role="option" src="sciter:copy.png">
+      <img role="option" src="sciter:cut.png">
+      <img role="option" src="sciter:paste.png">);
+}         
+
+        </script>
+    </head>
+    <body>
+
+<select|list>
+</select>
+
+    </body>
+</html>

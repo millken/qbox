@@ -1,15 +1,6 @@
-@font-face
-{
-	font-family: "photon-entypo";
-	font-style: normal;
-	src: url(photon-entypo.ttf);
+@font-face {
+    font-family: 'photon-entypo';
+    src: url("photon-entypo.ttf");
+    font-weight: normal;
+    font-style: normal;
 }
-
-i[class*=icon-]
-{
-	display: inline-block;
-	font-family: "photon-entypo";
-	font-size: 100%;
-	font-style: normal;
-}
-i.icon-home { content: '\e821'; }
